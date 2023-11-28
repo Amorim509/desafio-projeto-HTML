@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>Desafio HTML</title>
+        <body>
+            <h1 id="inicio">Aprendizado sobre HTML</h1>
+            <hr />
+
+            <h2>Índice</h2>
+            <ol>
+                <li><a href="#client-server">comunicação client x server</a></li>
+                <ul>
+                    <li><a href="#client">O que são clients</a></li>
+                    <li><a href="#server">O que são servers</a></li>
+                    <li><a href="#linguagens">Linguagens de programação</a></li>
+                </ul>
+                <li><a href="#introdução HTMLz">Introdução do HTML na prática</a></li>
+                <ul>
+                    <li><a href="#estrutura">Estrutura básica HTML</a></li>
+                    <li><a href="#tags">Tags</a></li>
+                    <li><a href="#textos">Textos</a></li>
+                    <li><a href="#listas">Listas ordenadas e não ordenadas</a></li>
+                    <li><a href="#links">Links</a></li>
+                </ul>
+            </ol>
+
+            <h2 id="client-server">Comunicação client x server</h2>
+            <h3 id="client">O que são clients</h3>
+            <small><a href="#inicio">(voltar)</a></small>
+            <p>
+                Client é tudo aquilo presente do lado do usuário, então qualquer dispositivo com acesso ao seu programa é um client, seja ele um notebook, um desktop ou até mesmo um smartphone. Osclients através da internet buscam conteúdos presentes nos servidores, e estes retornam os arquivos daquilo que foi buscado(HTML, CSS, Imagens...).
+            </p>
+            <P> 
+                Os navegadores são programas criados por empresas, que são utilizados para abrir e executar esses arquivos, eles fazem parte daquilo que chamamos de client.
+            </P>
+            <p>      
+                Aplicações web são soluções criadas que possuem a internet como meio de comunicação entre client x server não sendo necessário  sua instalação, ou seja, são os sites que temos acesso pelo nosso navegador.
+            </p>    
+            
+            <h3 id="server">O que são servers</h3>
+            <small><a href="#inicio">(voltar)</a></small>
+            <p>
+                Servidores são computadores que servem pra armazenar as informações de ua aplicação. Eles possuem um sistema operacional diferente do que estamos acostumados, como o <strong><i>windows server, Ubuntu, CentOs...</i></strong> Existem servidores paravários tipos de aplicação, como firewalls, bancos de dados e aplicações web.
+            </p>
+            <p>
+                Os servidores são responsáveis pela hospedagem dos sites, a partir do momento em que um site está hospedado em um servidor oclient pode fazer uma requisição de acesso, e então o servidor retorna os arquivos requeridos, que por fim são interpretados pelos navegadores
+            </p>
+
+            <h3 id="linguagens">Linguagens de programação</h3>
+            <small><a href="#inicio">(voltar)</a></small>
+            <p>
+                É uma linguagem escrita e formal que especifica um conjunto de regras e instruções usadas para gerar um programa  (software). Existem várias linguagens, cada uma com sua peculiaridade, e dentre elas costuma-se separar as linguagens usadas para o client-side (front-end), e as usadas para o server-side (back-end).
+            </p>
+            <p>
+                Dentro das linguagens de client-side se destaca o <strong><i>Javascript</i></strong>, existem outras que também funciona, mas o javascript é o que mais se destaca, principalmente em aplicações web. Uma curiosidade é que javascript roda tanto no client-side quanto no server-side. Além disso o client-side também vai utilizar de elementos HTML e CSS (que não são bem linguagens de programação)
+            </p>
+            <p>
+                Dentro das linguagens de programação do server-side temos uma variedade muito maior, como <strong><i>PHP, C#, Java...</i></strong> Essas linguagens não vão rodar do lado do client (ou seja no equipamento do usuário), e sim nos servidores, cada uma delas tem sua peculiaridade, não que uma seja melhor que a outra, mas para algumas explicações algumas se tornam mais eficientes que outras. 
+            </p>
+
+
+            <h2 id="introdução HTML">Introdução do HTML na prática</h2>
+            <h3 id="estrutura">Estrutura básica HTML</h3>
+            <small><a href="#inicio">(voltar)</a></small>
+            <p>
+                A estrutura básica HTML é iniciada sempre pela tag <strong><i>html</i></strong>, que delimita o início e o fim do nosso arquivo HTML. Logo em seguida temos a tag <strong><i>head</i></strong> que vão ser informações que vão carregar antes de exibir para o usuário como o título por exemplo. E por fim a tag <strong><i>body</i></strong>, que indica o que realmente vai ser mostrado para o usuário.
+            </p>
+
+            <h3 id="tags">Tags</h3>
+            <small><a href="#inicio">(voltar)</a></small>
+            <p>
+                É forma utilizado pelo HMTL para dizer o que deve ser feito. Um exemplo é a tag <strong><i>i</i></strong>, que indica que tudo entre o fechamento e abertura dessa tag deve ficar em itálico. As tags são escritas pelo sinal <>.As tags também possuem seus atributos que são propriedades que tags podem ter, alguns atributos são mais globais, como o <strong><i>style</i></strong>, que coloca comandos CSS direto no HTML, já alguns atributos são específicos de suas tags
+            </p>
+
+            <h3 id="textos">Textos</h3>
+            <small><a href="#inicio">(voltar)</a></small>
+            <P>
+                Existem tags específicas para inserr textos na nossa página. As tags <strong><i>h1, h2, h3...</i></strong> servem basicamente como cabeçalhos, quanto menos o número após o h, menor será a fonte. Atag <strong><i>p</i></strong> é usada para escrever textos maiores dentro do site. e também a tag <strong><i>blockquote</i></strong> que insere citações ao site. Esses foram alguns exemplos de implementação de textos.
+            </P>
+
+            <h3 id="listas">Listas ordenadas e não ordenadas</h3>
+            <small><a href="#inicio">(voltar)</a></small>
+            <p>
+                São usados para listar elemntos presentes no site, como um índice. A grande dferença entre as duas é a presença de um contador numérico nas listas ordenadas. São representadas pela tag <strong><i>ul</i></strong> para listas não ordenadas, e <strong><i>ol</i></strong> para as listas ordenadas.
+            </p>
+            
+            <h3 id="links">Links</h3>
+            <small><a href="#inicio">(voltar)</a></small>
+            <p>
+                POdemos também fazer a inserção de links através da tag <strong><i>a</i></strong>. Para que a tag funcione temos que utilizar o atributo <strong><i>href</i></strong> que vai apontar para o link que desejamos acessar.
+            </p>
+
+            
+        </body>
+    </head>
+</html>
